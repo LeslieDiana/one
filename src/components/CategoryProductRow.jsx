@@ -13,7 +13,13 @@ function CategoryProductRow(props) {
             {title}
         </div>
         <div className='category-body'>
-          {list.map((product)=><ProductRow name={product.name} price={product.price}/>)}
+          {list.map((product)=>
+          <ProductRow
+           name={product.name} 
+           price={product.price} 
+           key={product.id} 
+           theme={product.theme}
+           />)}
         </div>
     </div>
   )
