@@ -1,0 +1,9 @@
+.seach-bar__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+.seach-bar__container input{
+    border-radius: 4px;
+}
